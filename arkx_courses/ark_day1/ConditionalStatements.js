@@ -20,14 +20,14 @@ switch (day){
         console.log("Wednsday");
         break;
     case 4 :
-        console.log("thursday");
+        console.log("friday");
          break;
     case 5 :
          console.log("friday");
          break;
     case 6 :
-        console.log("saturday");
-        break;
+        console.log("friday");
+         break;
     case 7 :
     console.log("sunday");
     break;
