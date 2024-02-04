@@ -5,16 +5,16 @@ const fs = require("fs");
 function readFileAsync(filePath) {
   return new Promise((resolve, reject) => {
     // Reading the file content asynchronously
-    fs.readFile(filePath, "utf-8", (err, data) => {
+    fs.readFile(filePath, "utf-8", (err, input) => {
       if (err) return reject(err.message);
-      else resolve(data);
+      else resolve(input);
     });
   });
 }
 
 // Reading content from test1.txt file asynchronously
 readFileAsync('test1.txt')
-  .then((data) => console.log('Content : ', data))
+  .then((input) => console.log('Content : ', input))
   .catch((err) => console.log('Error : ', err));
 
 // Exporting the readFileAsync function for use in other modules

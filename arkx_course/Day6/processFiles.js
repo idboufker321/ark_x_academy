@@ -8,9 +8,9 @@ function processFiles(...files) {
       let file = files[i];
       // Reading the file asynchronously
       readFileAsync(file)
-        .then((data) => {
+        .then((input) => {
           // Converting the data to uppercase
-          const read_data = data.toUpperCase();
+          const read_data = input.toUpperCase();
           // Logging the uppercase data
           console.log(read_data);
           // Writing the uppercase data back to the file asynchronously

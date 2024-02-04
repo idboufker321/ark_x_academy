@@ -35,24 +35,5 @@ console.log(result);
 
 /*
 
-Here's a step-by-step explanation:
-
-1- Initialization: The function takes an array arr as input.
-
-2- Main Loop: A while loop is used to iterate until the length of the array arr is greater than 1.
-
-3- Result Array: Inside the loop, a new array result is initialized to store the result of the current iteration.
-
-4- For Loop: A for loop is used to iterate through the elements of the input array.
-
-5- Counting Identical Numbers: Within the loop, a while loop is used to count consecutive identical numbers in the array.
-
-6- Pushing to Result: The count (or 1 if count is 1) is pushed to the result array.
-
-7- Updating Input Array: After processing the entire array, the input array arr is updated with the result array.
-
-8- Return: Once the while loop exits (when the array length is reduced to 1), the single integer left in the array is returned.
-
-9- Example Usage: The function is then called with an example input array, and the result is logged to the console.
 
 */
