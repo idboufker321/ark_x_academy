@@ -1,3 +1,0 @@
-
-content of test2.txt file 
-
