@@ -28,9 +28,9 @@ try {
   const newSheet = xlsx.utils.json_to_sheet(data);
 
   // Add header row for the new columns
-  xlsx.utils.sheet_add_aoa(newSheet, [["BonusPercentage", "BonusAmount"]], {
-    origin: -1,
-  });
+  // xlsx.utils.sheet_add_aoa(newSheet, [["BonusPercentage", "BonusAmount"]], {
+  //   origin: -1,
+  // });
 
   // Create a new workbook with the new sheet
   const newWorkbook = xlsx.utils.book_new();
