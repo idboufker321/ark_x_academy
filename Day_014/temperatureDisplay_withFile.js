@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 
 const cities = [
   { name: 'New York', lat: 40.7128, lng: -74.0060 },
