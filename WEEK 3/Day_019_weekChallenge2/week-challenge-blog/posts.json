@@ -1,0 +1,32 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "author": "brahim",
+            "title": "55555",
+            "text": "5555",
+            "description": "55555"
+        },
+        {
+            "id": 2,
+            "author": "brahim2",
+            "title": "55555",
+            "text": "5555",
+            "description": "55555"
+        },
+        {
+            "id": 3,
+            "author": "khalid",
+            "title": "55555",
+            "text": "5555",
+            "description": "55555"
+        },
+        {
+            "id": 4,
+            "author": "ahmed",
+            "title": "55555",
+            "text": "5555",
+            "description": "55555"
+        }
+    ]
+}
